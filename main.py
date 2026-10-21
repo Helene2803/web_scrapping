@@ -2,7 +2,7 @@ import requests
 import bs4
 from datetime import datetime
 
-KEYWORDS = ['дизайн', 'фото', 'web', 'python', 'хабр', 'программист']
+KEYWORDS = ['дизайн', 'фото', 'web', 'python']
 
 url = 'https://habr.com/ru/articles/'
 response = requests.get(url)
